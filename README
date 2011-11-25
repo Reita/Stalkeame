@@ -1,0 +1,20 @@
+/* What is Stalkeame? */
+Stalkeame scans the pictures Twitter users upload to TwitPic, analyzes
+each picture's EXIF data and displays the location where each photo was
+taken on a nifty little map, all for your stalking pleasure. No data is
+saved during this scan which is why Stalkeame may take a few minutes to
+load. Please be patient (and please don't use it to actually stalk
+anyone!).
+
+/* Drawbacks */
+Since Stalkeame does not save any sort of data each time it scans for
+Twitpic photos the service can take up to 5 minutes or so to give a 
+response. Twitpic is slow and unreliable and their API is quite
+terrible.
+
+I had to resort to using a regular expression in order to scan users'
+pictures so if Twitpic ever decides to update their layout that'd mean
+Stalkeame will break.
+
+/* To do */
+Rewrite the backend and perhaps start saving/caching data.

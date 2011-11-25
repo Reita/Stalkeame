@@ -1,0 +1,53 @@
+/*-  BROWSER-SPECIFIC CSS "PATCHES"
+----------------------------------------------------------------------*/
+@import url("win-ie6-below.css");
+
+@media tty {
+	i{content:"\";/*" "*/}} @import 'win-ie5.css'; /*";}
+}/* */
+
+#content #what,
+#content #who {
+  margin-left: 0;
+}
+
+#content #social {
+  height: 272px;
+  margin-right: 0;
+}
+
+#content #who {
+  height: 260px;
+}
+
+#content #map1div {
+  margin-right: 0;
+}
+
+#content #twitter a,
+#content #facebook a {
+  background-position: left center;
+}
+
+/* Please upgrade your outdated POS */
+#activebar-container * {
+  padding: 0;
+  margin: 0;
+}
+
+#activebar-container {
+  font-family: "Bitstream Vera Sans", verdana, Sans-serif;
+  letter-spacing: 0px;
+  padding: 0;
+  margin: 0;
+}
+
+#activebar-container div {
+  margin: -3px 0 -2px 0;
+}
+
+#activebar-container .content,
+#activebar-container .icon,
+#activebar-container .close {
+  border: none;
+}
